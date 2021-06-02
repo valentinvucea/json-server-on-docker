@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "songs": [
+    {
+      "id": 1,
+      "title": "Run",
+      "artist": "AnaComan",
+      "year": 2020,
+      "album": "Romania",
+      "genre": "Alternative"
+    },
+    {
+      "id": 2,
+      "title": "The House of the Rising Sun",
+      "artist": "The Animals",
+      "year": 1964,
+      "album": "60s",
+      "genre": "Rock"
+    },
+    {
+      "id": 3,
+      "title": "Friends",
+      "artist": "Aura Dione  ft. Rock Mafia",
+      "year": 2012,
+      "album": "2010s",
+      "genre": "Pop"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+version: "3"
+services:
+    rest:
+        container_name: json-server-rest
+        build: 
+            context: ./
+            dockerfile: Dockerfile
+        volumes:
+            - ./data:/data
+            - /app/node_modules
+        ports:
+            - "3000:3000"
+        networks:
+            - app-network
+networks:
+    app-network:
+        driver: bridge            
